@@ -1,4 +1,4 @@
-import { Home, AlertCircle, Sparkles, Code, Users, Mail } from "lucide-react";
+import { Home, Brain, MessageSquare, Users, Mail, Sparkles } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 
 import {
@@ -15,9 +15,9 @@ import {
 
 const menuItems = [
   { title: "Home", url: "/", icon: Home },
-  { title: "The Problem", url: "/problem", icon: AlertCircle },
-  { title: "Our Solution", url: "/features", icon: Sparkles },
-  { title: "Technology", url: "/technology", icon: Code },
+  { title: "AI Career Counselor", url: "/ai-counselor", icon: Brain },
+  { title: "Community Forum", url: "/community", icon: MessageSquare },
+  { title: "Premium Mentorship", url: "/mentorship", icon: Sparkles },
   { title: "Team", url: "/team", icon: Users },
   { title: "Contact", url: "/contact", icon: Mail },
 ];
