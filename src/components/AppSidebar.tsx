@@ -1,5 +1,7 @@
 import { Home, Brain, MessageSquare, Users, Mail, Sparkles } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
+import logo from "../assets/logo1.jpg"
+
 
 import {
   Sidebar,
@@ -27,13 +29,14 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader className="border-b border-border/50 px-6 py-4">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+          <div className="h-15 w-50 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+            <img src={logo} alt="skillsence" />
             <Sparkles className="h-4 w-4 text-primary-foreground" />
           </div>
-          <div>
+          {/* <div>
             <h2 className="text-lg font-bold text-foreground">SkillSense</h2>
             <p className="text-xs text-muted-foreground">AI Career Intelligence</p>
-          </div>
+          </div> */}
         </div>
       </SidebarHeader>
       
