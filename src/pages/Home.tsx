@@ -506,8 +506,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* updated code */}
+
       {/* Chat Widget */}
       <ChatWidget />
     </main>
+
   );
 }
